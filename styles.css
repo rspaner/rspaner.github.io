@@ -29,6 +29,13 @@ p {
 }
 
 .splash {
-	
+	background-color: #F3CFCE;
 }
 
+.foot {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #F3CFCE;
+	padding: 2%;
+}
