@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	background-color:#FFF5F4
 }
 
 h2 {
@@ -9,8 +10,12 @@ h2 {
 	font-size: 50px;
 	line-height: 78px;
 	text-align: center;
-	
-	
+}
+
+nav {
+	font-family: 'Quicksand';
+	background-color: #FFF5F4;
+	padding: 2%;
 }
 
 p {
@@ -21,5 +26,9 @@ p {
 
 	padding: .01%;
 	background-color: #F3CFCE;
+}
+
+.splash {
+	
 }
 
