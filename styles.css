@@ -2,11 +2,20 @@ h2 {
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 64px;
+	font-size: 50px;
 	line-height: 78px;
 	text-align: center;
+	
+	
 }
 
 p {
 	font-family: 'Quicksand'
 }
+
+.header {
+
+	padding: .01%;
+	background-color: #F3CFCE;
+}
+
