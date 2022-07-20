@@ -5,6 +5,7 @@ body {
 
 h2 {
 	font-family: 'Playfair Display';
+	color: white;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 50px;
@@ -14,7 +15,8 @@ h2 {
 
 nav {
 	font-family: 'Quicksand';
-	background-color: #FFF5F4;
+	background-color: #E4929C;
+	color: white;
 	padding: 2%;
 }
 
@@ -22,20 +24,53 @@ p {
 	font-family: 'Quicksand'
 }
 
+a {
+	font-family: 'Quicksand';
+	color: white;
+	text-decoration: none;
+}
+
 .header {
 
 	padding: .01%;
-	background-color: #F3CFCE;
+	background-color: #E4929C
 }
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	/* width: 100%; */
+
+}
+
+.logo {
+	display: flex;
+	align-items: right;
+	padding-right: 80%;
+
+}
+
+.nav-links {
+	display: flex; 
+	justify-content: flex-end;
+	align-items: right;
+}
+
+.nav-link{
+	padding-left: 15%;
+}
+
 
 .splash {
 	background-color: #F3CFCE;
+	background-size: cover;
 }
 
 .foot {
+	color: white;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
-	background-color: #F3CFCE;
+	background-color: #E4929C;
 	padding: 2%;
 }
