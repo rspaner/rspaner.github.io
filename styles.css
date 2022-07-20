@@ -14,6 +14,7 @@ h2 {
 	text-align: center;
 }
 
+
 nav {
 	font-family: 'Quicksand';
 	background-color: #E4929C;
@@ -68,10 +69,42 @@ a {
 
 }
 
+.preview-card {
+	display: flex;
+	margin: 5%;
+	flex-direction: row;
+	color: #4D4646
+}
+
+.image-holder {
+	padding-right: 60%; 
+}
+
+.work-description {
+	align-items: left;
+}
+
+.work-description h3 {
+	font-family: 'Playfair Display';
+	color: #4D4646;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 64px;
+}
+
+.work-description p {
+	font-family: 'Quicksand';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+}
+
 .foot {
 	color: white;
 	width: 100%;
-	position: absolute;
+
 	bottom: 0;
 	background-color: #E4929C;
 	padding: 2%;
