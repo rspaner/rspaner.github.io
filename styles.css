@@ -17,7 +17,7 @@ nav {
 	font-family: 'Quicksand';
 	background-color: #E4929C;
 	color: white;
-	padding: 2%;
+	padding: 1.5%;
 }
 
 p {
@@ -30,16 +30,9 @@ a {
 	text-decoration: none;
 }
 
-.header {
-
-	padding: .01%;
-	background-color: #E4929C
-}
-
 .navbar {
 	display: flex;
 	flex-direction: row;
-	/* width: 100%; */
 
 }
 
@@ -64,6 +57,14 @@ a {
 .splash {
 	background-color: #F3CFCE;
 	background-size: cover;
+}
+
+.header {
+
+	padding: 2%;
+	background-color: #E4929C;
+	margin: 0;
+
 }
 
 .foot {
