@@ -64,11 +64,9 @@ a {
 }
 
 .header {
-
 	padding: 2%;
 	background-color: #E4929C;
 	margin: 0;
-
 }
 
 .preview-card {
@@ -89,6 +87,8 @@ a {
 }
 
 .work-description {
+	display: flex;
+	flex-direction: column;
 	align-items: right;
 	padding-left: 10%;
 	max-width: 30%;
@@ -109,6 +109,10 @@ a {
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 30px;
+}
+
+.work-description button {
+	font-family: 'Quicksand';
 }
 
 .foot {
