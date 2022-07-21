@@ -32,6 +32,8 @@ a {
 	text-decoration: none;
 }
 
+
+
 .navbar {
 	display: flex;
 	flex-direction: row;
@@ -77,11 +79,19 @@ a {
 }
 
 .image-holder {
-	padding-right: 60%; 
+	width: 70%;
+}
+
+.image-holder img {
+	object-fit: contain;
+	width: 100%; 
+	height: auto; 
 }
 
 .work-description {
-	align-items: left;
+	align-items: right;
+	padding-left: 10%;
+	max-width: 30%;
 }
 
 .work-description h3 {
@@ -103,9 +113,9 @@ a {
 
 .foot {
 	color: white;
-
-
 	bottom: 0;
 	background-color: #E4929C;
 	padding: 2%;
 }
+
+
