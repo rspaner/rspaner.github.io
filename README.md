@@ -1,10 +1,9 @@
-# portfolio-site
-Personal Website
+# Rachel Paner's Portfolio Site
 
-caro
-:)
+This is the personal website for Rachel Paner, a Cognitive Science major @ UCSD
+It was implemented by [Caroline Wang](https://github.com/caroliyw), a Computer Science Major @ UCI
+Check out Caroline's [github](https://github.com/caroliyw) and [linkedin](https://www.linkedin.com/in/caroline-y-wang/)
 
-FONTS
-Playfair Display
-Quicksand 
+
+### more stuff about rachel ###
 
