@@ -123,10 +123,54 @@ a {
 }
 
 .foot {
+	display: flex;
+	flex-direction: row; 
 	color: white;
 	bottom: 0;
 	background-color: #E4929C;
 	padding: 2%;
 }
 
+.foot p {
+	font-family: "Playfair Display";
+}
+
+.foot-text {
+	text-align: center; 
+	padding-right: 5%;
+	padding-left: 5%;
+	font-size: 24px;
+	/* background-color: blue; */
+}
+
+.left-foot-icons {
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+	width: 40%;
+	
+	/* background-color: red; */
+}
+
+.left-foot-icons img {
+	object-fit: contains; 
+	width: 10%; 
+	padding-left: 80%;
+	vertical-align: middle;
+	
+}
+
+.right-foot-icons {
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+	width: 40%;
+	/* background-color: red; */
+}
+
+.right-foot-icons img {
+	object-fit: contains; 
+	width: 10%; 
+	padding-left: 10%;
+}
 
