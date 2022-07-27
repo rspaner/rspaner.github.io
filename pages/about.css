@@ -6,7 +6,7 @@
 }
 
 .pfp {
-	background-color: red; 
+	/* background-color: red; for testing purposes */
 	width: 50%; 
 
 }
@@ -23,6 +23,18 @@
 	flex-direction: row; 
 	font-family: 'Playfair Display';
 	font-size: 48px;
+}
+
+.about-text-description {
+	font-size: 24px; 
+}
+
+.more-about-me {
+	/* background-color: red;  */
+	font-family: 'Playfair Display';
+	text-align: center; 
+	font-size: 48px;
+	padding-bottom: 5%; 
 }
 
 
