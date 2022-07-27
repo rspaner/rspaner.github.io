@@ -1,0 +1,28 @@
+.about-me-info {
+	display: flex;
+	flex-direction: row;
+	margin: 5%; 
+	justify-content: space-between; 
+}
+
+.pfp {
+	background-color: red; 
+	width: 50%; 
+
+}
+
+.about-me-text {
+	display: flex; 
+	flex-direction: column; 
+	width: 50%; 
+	/* background-color: grey;  */ /* for testing purposes*/
+}
+
+.about-text-header {
+	display: flex; 
+	flex-direction: row; 
+	font-family: 'Playfair Display';
+	font-size: 48px;
+}
+
+
