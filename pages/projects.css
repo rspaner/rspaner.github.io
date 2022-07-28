@@ -1,0 +1,52 @@
+/* use for each of the UI/UX project subpages */
+
+h1 {
+	/* title of the page */
+	font-family: 'Playfair Display';
+	color: #4D4646;
+	font-size: 64px; 
+	text-align: center; 
+	font-weight: normal;
+}
+
+h3 {
+	/* section titles */
+	font-family: 'Playfair Display';
+	color: #7C294C;
+	font-size: 48px; 
+	font-weight: normal;
+	margin: 0; 
+}
+
+ol {
+	list-style-position: inside; 
+	padding: 0; 
+}
+
+li {
+	/* subsections */
+	font-family: 'Playfair Display';
+	color: #4D4646;
+	font-size: 48px; 
+	font-weight: normal;
+	
+}
+
+.project-body {
+	margin: 5%; 
+}
+
+.big-image{
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+}
+
+.big-image img{
+	align-self: center;
+	width: 70%; 
+}
+
+/* .reg-image{
+
+} */

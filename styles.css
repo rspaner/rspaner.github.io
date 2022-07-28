@@ -14,7 +14,6 @@ h2 {
 	text-align: center;
 }
 
-
 nav {
 	font-family: 'Quicksand';
 	background-color: #E4929C;
@@ -31,8 +30,6 @@ a {
 	color: white;
 	text-decoration: none;
 }
-
-
 
 .navbar {
 	display: flex;
@@ -158,6 +155,10 @@ a {
 	padding-left: 80%;
 	vertical-align: middle;
 	
+}
+
+.foot img:hover {
+	cursor: pointer; 
 }
 
 .right-foot-icons {

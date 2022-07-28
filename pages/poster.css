@@ -1,0 +1,33 @@
+h1 {
+	/* title of the page */
+	font-family: 'Playfair Display';
+	color: #4D4646;
+	font-size: 64px; 
+	text-align: center; 
+	font-weight: normal;
+}
+
+h3 {
+	/* section titles */
+	font-family: 'Playfair Display';
+	color: #7C294C;
+	font-size: 48px; 
+	font-weight: normal;
+	margin: 0; 
+	text-align: center; 
+}
+
+.page-body {
+	margin: 5%; 
+}
+
+.image-container {
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+}
+
+.image-container img {
+	align-self: center;
+	width: 50%; 
+}
