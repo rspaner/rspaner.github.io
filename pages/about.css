@@ -6,16 +6,13 @@
 }
 
 .pfp {
-	/* background-color: red; for testing purposes */
 	width: 50%; 
-
 }
 
 .about-me-text {
 	display: flex; 
 	flex-direction: column; 
 	width: 50%; 
-	/* background-color: grey;  */ /* for testing purposes*/
 }
 
 .about-text-header {
