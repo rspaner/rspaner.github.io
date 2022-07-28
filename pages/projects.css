@@ -36,7 +36,15 @@ li {
 	margin: 5%; 
 }
 .big-image{
-	background-color: red; 
+	display: flex; 
+	flex-direction: column;
+	/* background-color: red;  */
+	justify-content: center;
+}
+
+.big-image img{
+	align-self: center;
+	width: 70%; 
 }
 
 /* .reg-image{
