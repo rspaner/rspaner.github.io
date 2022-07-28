@@ -1,0 +1,35 @@
+/* use for each of the project subpages */
+
+h1 {
+	/* title of the page */
+	font-family: 'Playfair Display';
+	color: #4D4646;
+	font-size: 64px; 
+	text-align: center; 
+	font-weight: normal;
+}
+
+h3{
+	/* section titles */
+	font-family: 'Playfair Display';
+	color: #7C294C;
+	font-size: 48px; 
+	font-weight: normal;
+	margin: 0; 
+}
+
+h4 {
+	/* subsections */
+	font-family: 'Playfair Display';
+	color: #4D4646;
+	font-size: 48px; 
+	font-weight: normal;
+}
+
+.big-image{
+	background-color: red; 
+}
+
+/* .reg-image{
+
+} */
