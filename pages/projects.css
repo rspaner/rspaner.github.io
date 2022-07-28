@@ -18,14 +18,23 @@ h3{
 	margin: 0; 
 }
 
-h4 {
+ol {
+	list-style-position: inside; 
+	padding: 0; 
+}
+
+li {
 	/* subsections */
 	font-family: 'Playfair Display';
 	color: #4D4646;
 	font-size: 48px; 
 	font-weight: normal;
+	
 }
 
+.project-body {
+	margin: 5%; 
+}
 .big-image{
 	background-color: red; 
 }
