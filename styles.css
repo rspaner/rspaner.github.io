@@ -14,6 +14,20 @@ h2 {
 	text-align: center;
 }
 
+h5 {
+	font-family: 'Playfair Display';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 48px;
+}
+
+h6 {
+	font-family: 'Playfair Display';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 64px;
+}
+
 nav {
 	font-family: 'Quicksand';
 	background-color: #E4929C;
@@ -44,6 +58,17 @@ a {
 
 }
 
+.splash {
+	height: 92vh; 
+	color: white; 
+	display: flex;
+	flex-direction: column; 
+	background-color: #E4929C;
+	padding-left: 5%; 
+	padding-right: 10%; 
+	
+}
+
 .nav-links {
 	display: flex; 
 	justify-content: flex-end;
@@ -54,11 +79,6 @@ a {
 	padding-left: 15%;
 }
 
-
-.splash {
-	background-color: #F3CFCE;
-	background-size: cover;
-}
 
 .header {
 	padding: 2%;
