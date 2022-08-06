@@ -15,10 +15,14 @@ h3 {
 	font-weight: normal;
 	margin: 0; 
 	text-align: center; 
+	line-height: 64px 
 }
 
 .page-body {
-	margin: 5%; 
+	margin: 12%;
+	font-size: 20px; 
+	line-height: 32px;
+
 }
 
 .image-container {
@@ -31,4 +35,13 @@ h3 {
 .image-container img {
 	align-self: center;
 	width: 50%; 
+}
+
+.poster img {
+	padding-top: 2%;
+	display: block;
+	height: 45%;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
 }

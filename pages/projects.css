@@ -15,7 +15,8 @@ h3 {
 	color: #7C294C;
 	font-size: 48px; 
 	font-weight: normal;
-	margin: 0; 
+	margin: 0;
+	line-height: 64px 
 }
 
 ol {
@@ -29,11 +30,12 @@ li {
 	color: #4D4646;
 	font-size: 48px; 
 	font-weight: normal;
+	line-height: 64px;
 	
 }
 
 .project-body {
-	margin: 5%; 
+	margin: 12%; 
 }
 
 .big-image{
@@ -46,6 +48,36 @@ li {
 	align-self: center;
 	width: 70%; 
 }
+
+.img-des {
+	color: #7C294C;
+	font-size: 16px; 
+	position: relative;
+	padding-bottom: 2%;
+	line-height: 24px;
+}
+
+.storyboard img{
+	width: 95%;
+	height: 95%;
+	top: 50%;
+  	left: 50%;
+}
+
+.personas img{
+	
+	width: 75%;
+	height: 75%;
+	top: 50%;
+  	left: 50%;
+	padding: 2%;
+}
+#center {  
+	text-align: center;
+	} 
+
+
+
 
 /* .reg-image{
 
