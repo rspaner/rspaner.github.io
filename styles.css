@@ -6,16 +6,46 @@ body {
 	line-height: 32px;
 }
 
+/* splash page */
+#hello {
+	font-family: 'Playfair Display';
+	color: #FFF5F4;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 48px;
+	padding-bottom: 1%;
+	margin-top: 15%;
+}
+
+#bigname {
+	font-family: 'Playfair Display';
+	color: #FFF5F4;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 100px;
+}
+
+#dd {
+	font-family: 'Playfair Display';
+	color: #FFF5F4;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 48px;
+	padding-top: 1%;
+}
+
+
+
 h2 {
 	font-family: 'Playfair Display';
-	color: white;
+	color: #FFF5F4;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 48px;
 	line-height: 78px;
 	text-align: center;
 }
-
+/* regular tag -> class -> id -> inline css */
 h5 {
 	font-family: 'Playfair Display';
 	font-weight: normal;
@@ -48,21 +78,63 @@ a {
 	text-decoration: none;
 }
 
-.navbar {
+/* .navbar {
 	display: flex;
 	flex-direction: row;
 
-}
+} */
 
-.logo {
+/* body {
+	margin: 0;
+	background-color: #FFF5F4;
+	font-family: Arial, Helvetica, sans-serif;
+  } */
+  
+  #navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-top: 20px;
+	display: block;
+	transition: top 0.3s;
+	z-index: 1;
+  }
+
+  
+  #navbar a {
+	float: right;
+	display: block;
+	font-family: "Quicksand";
+	color: FFF5F4;
+	text-align: center;
+	padding: 24px;
+	text-decoration: none;
+	font-size: 24px;
+	opacity: 100%;
+  }
+  #contact {
+	margin-right:48px;
+  }
+  
+  #navbar a:hover {
+	background-color: lightpink;
+	color: black;
+  }
+
+  #logo {
+	float: left !important;
+	padding-left: 48px !important;
+  }
+
+/* .logo {
 	display: flex;
 	align-items: right;
 	padding-right: 80%;
 
-}
+} */
 
 .splash {
-	height: 95vh; 
+	height: 100vh; 
 	color: white; 
 	display: flex;
 	flex-direction: column; 
@@ -74,15 +146,15 @@ a {
 	
 }
 
-.nav-links {
+/* .nav-links {
 	display: flex; 
 	justify-content: flex-end;
 	align-items: right;
-}
+} */
 
-.nav-link{
+/* .nav-link{
 	padding-left: 15%;
-}
+} */
 
 
 .header {
@@ -144,6 +216,12 @@ a {
 	background-color: #EA7197;
 	border: none;
 }
+
+.work-description button:hover {
+	background-color: lightpink;
+	color: black;
+}
+
 
 .foot {
 	display: flex;

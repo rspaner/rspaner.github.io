@@ -1,166 +1,188 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Rachel's Website</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="styles.css">
-		<script src="index.js"></script>
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" >
-	</head>
+<head>
+	<title>Rachel's Website</title>
+	<link rel="icon"
+		href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💖</text></svg>">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="index.js"></script>
 
-	<body>
-		<nav class="navbar"> 
-			<div class="logo">
-				<a href="index.html" title="Go to home page">RP</a>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+</head>
+
+<body>
+	<!-- <nav class="navbar">
+		<div class="logo">
+			<a href="index.html" title="Go to home page">RP</a>
+		</div>
+
+		<div class="nav-links">
+			<a href="#work" class="nav-link">Work</a>
+			<a href="pages/about.html" class="nav-link">About</a>
+			<a href="pages/resume.html" class="nav-link">Resume</a>
+			<a href="#foot" class="nav-link">Contact</a>
+		</div>
+
+	</nav> -->
+	<div id="navbar">
+		<div class="nav-right">
+			<a id="contact" href="#foot" class="nav-link">Contact</a>
+			<a href="pages/resume.html" class="nav-link">Resume</a>
+			<a href="pages/about.html" class="nav-link">About</a>
+			<a href="#work" class="nav-link">Work</a>
+		</div>
+		<a id="logo" href="index.html" title="Go to home page">RP</a>
+
+	</div>
+
+	<div class="splash">
+		<h3 id="hello">Hello, I'm</h3>
+		<h1 id="bigname">RACHEL PANER</h1>
+		<h3 id="dd">designer & dreamer</h3>
+		<p>
+			I’m devoted to combining functionality with
+			imagination to tell users a compelling story.
+		</p>
+		<!-- <h5>
+			Hello, I'm <br>
+			<span style="font-size: 120px"> RACHEL PANER <br></span>
+			<br><br>
+			designer & dreamer
+
+		</h5>
+		<p style="font-size:30px">
+			I’m devoted to combining functionality with
+			imagination to tell users a compelling story.
+		</p> -->
+
+	</div>
+
+	<div id="work">
+		<h2 class="header">
+			UI/UX Design
+		</h2>
+
+		<div class="preview-card">
+			<div class="image-holder">
+				<img src="images/EVolveGroup.png" alt="EVolve prototype title screens">
 			</div>
-			
-			<div class="nav-links">
-				<a href="#work" class="nav-link">Work</a>
-				<a href="pages/about.html" class="nav-link">About</a>
-				<a href="pages/resume.html" class="nav-link">Resume</a>
-				<a href="#foot" class="nav-link">Contact</a>
-			</div>
 
-		</nav>
-
-		<div class="splash"> 
-			
-			<h5> 
-				Hello, I'm <br> 
-				<span style="font-size: 120px"> RACHEL PANER <br></span>
+			<div class="work-description">
+				<h3>EVolve</h3>
+				<p>An app designed to help prospective electric vehicle buyers connect with
+					current EV owners and be more prepared mentally and
+					financially to transition from gas vehicles. </p>
 				<br><br>
-				designer & dreamer
-			
-			</h5>
-			<p style="font-size:30px">
-				I’m devoted to combining functionality with 
-				imagination to tell users a compelling story.
-			</p>
-			
-		</div>
-
-		<div id="work">
-			<h2 class="header">
-				UI/UX Design
-			</h2>
-
-			<div class="preview-card">
-				<div class="image-holder">
-					<img src="images/EVolveGroup.png" alt="EVolve prototype title screens">
-				</div>
-
-				<div class="work-description">
-					<h3>EVolve</h3>
-					<p>An app designed to help prospective electric vehicle buyers connect with 
-						current EV owners and be more prepared mentally and 
-						financially to transition from gas vehicles. </p>
-						<br><br>
-					<button onClick="self.location='pages/evolve.html'">view case study</button>
-				</div>
-			</div>
-
-			<div class="preview-card">
-				<div class="image-holder">
-					<img src="images/CKI.png" alt="Mobile and desktop versions of redesigned UCSD CKI homepage">
-				</div>
-
-				<div class="work-description">
-					<h3>UCSD CKI 
-						website 
-						redesign</h3>
-					<p>
-						Redesigning the website on desktop to improve readability,
-						 navigation, visuals, and translation of desktop interface 
-						 to mobile interface for UCSD Circle K International, 
-						 a campus volunteer service organization.
-					</p>
-					<br><br>
-					<button onClick="self.location='pages/cki.html'">view case study</button>
-				</div>
-			</div>
-
-			<div class="preview-card">
-				<div class="image-holder">
-					<img src="images/DebateTable.png" alt="DebateTable login and homepage prototype screens">
-				</div>
-
-				<div class="work-description">
-					<h3>DebateTable</h3>
-					<p>
-						A social debating platform that encourages the spread of 
-						more diverse viewpoints through text and video-based 
-						debates, community-sourced prompts, and data visualizations 
-						of changes in opinions over time.
-					</p>
-					<br><br>
-					<button onClick="window.location.href='https://debatetable.wixsite.com/portfolio'">view case study</button>
-				</div>
+				<button onClick="self.location='pages/evolve.html'">view case study</button>
 			</div>
 		</div>
 
-		<div>
-			<h2 class="header">
-				Graphic Design
-			</h2>
-
-			<div class="preview-card">
-				<div class="image-holder">
-					<img src="images/Artist_Statement_Poster.png" alt="Denotative, connotative, and exhibition posters">
-				</div>
-
-				<div class="work-description">
-					<h3>Artist Statement Poster Set</h3>
-					<p>
-						An iterative set of denotative, connotative, 
-						and exhibition posters that reflect my 
-						personal creative influences in design.
-					</p>
-					<br><br>
-					<button onClick="self.location='pages/poster.html'">view project</button>
-				</div>
+		<div class="preview-card">
+			<div class="image-holder">
+				<img src="images/CKI.png" alt="Mobile and desktop versions of redesigned UCSD CKI homepage">
 			</div>
 
+			<div class="work-description">
+				<h3>UCSD CKI
+					website
+					redesign</h3>
+				<p>
+					Redesigning the website on desktop to improve readability,
+					navigation, visuals, and translation of desktop interface
+					to mobile interface for UCSD Circle K International,
+					a campus volunteer service organization.
+				</p>
+				<br><br>
+				<button onClick="self.location='pages/cki.html'">view case study</button>
+			</div>
 		</div>
 
-		<!-- uncomment this when you actually add something -->
-		<!-- <div>
+		<div class="preview-card">
+			<div class="image-holder">
+				<img src="images/DebateTable.png" alt="DebateTable login and homepage prototype screens">
+			</div>
+
+			<div class="work-description">
+				<h3>DebateTable</h3>
+				<p>
+					A social debating platform that encourages the spread of
+					more diverse viewpoints through text and video-based
+					debates, community-sourced prompts, and data visualizations
+					of changes in opinions over time.
+				</p>
+				<br><br>
+				<button onClick="window.location.href='https://debatetable.wixsite.com/portfolio'">view case
+					study</button>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<h2 class="header">
+			Graphic Design
+		</h2>
+
+		<div class="preview-card">
+			<div class="image-holder">
+				<img src="images/Artist_Statement_Poster.png" alt="Denotative, connotative, and exhibition posters">
+			</div>
+
+			<div class="work-description">
+				<h3>Artist Statement Poster Set</h3>
+				<p>
+					An iterative set of denotative, connotative,
+					and exhibition posters that reflect my
+					personal creative influences in design.
+				</p>
+				<br><br>
+				<button onClick="self.location='pages/poster.html'">view project</button>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- uncomment this when you actually add something -->
+	<!-- <div>
 			<h2 class="header">
 				Other Projects
 			</h2>
 		</div> -->
 
-		<div class="foot" id="foot">
-			<div class="left-foot-icons">
-				<img title="Click here to copy my email to clipboard" src="icons/mail_icon.png" alt="Click here to copy my email to the clipboard" onclick="copyEmail()">
+	<div class="foot" id="foot">
+		<div class="left-foot-icons">
+			<img title="Click here to copy my email to clipboard" src="icons/mail_icon.png"
+				alt="Click here to copy my email to the clipboard" onclick="copyEmail()">
 
-				<a href="https://www.linkedin.com/in/rachel-paner-82ab31226/" target="_blank">
-					<img src="icons/linkedin_icon.png" alt="Click here to go to my Linkedin page" title="Click here to go to my Linkedin page">
-				</a>
-				
-			</div>
+			<a href="https://www.linkedin.com/in/rachel-paner-82ab31226/" target="_blank">
+				<img src="icons/linkedin_icon.png" alt="Click here to go to my Linkedin page"
+					title="Click here to go to my Linkedin page">
+			</a>
 
-			<div class="foot-text">
-				<p>Lets work together! <br>
-					Feel free to contact me at <br>
-					rachelspaner@gmail.com</p>
-			</div>
-
-			<div class="right-foot-icons">
-				<img src="icons/resume_icon.png" alt="Click here to download my resume" >
-				<a href="https://github.com/rspaner" target="_blank">
-					<img src="icons/github_icon.png" alt="Click here to go to my github page">
-				</a>
-				
-			</div>
 		</div>
 
+		<div class="foot-text">
+			<p>Lets work together! <br>
+				Feel free to contact me at <br>
+				rachelspaner@gmail.com</p>
+		</div>
 
-	</body>
+		<div class="right-foot-icons">
+			<img src="icons/resume_icon.png" alt="Click here to download my resume">
+			<a href="https://github.com/rspaner" target="_blank">
+				<img src="icons/github_icon.png" alt="Click here to go to my github page">
+			</a>
+
+		</div>
+	</div>
+
+
+</body>
 
 
 </html>
