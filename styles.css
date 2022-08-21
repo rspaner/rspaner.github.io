@@ -96,8 +96,8 @@ a {
 	width: 100%;
 	margin-top: 20px;
 	display: block;
-	transition: top 0.3s;
-	z-index: 1;
+	
+	
   }
 
   
@@ -105,7 +105,7 @@ a {
 	float: right;
 	display: block;
 	font-family: "Quicksand";
-	color: FFF5F4;
+	color: #FFF5F4;
 	text-align: center;
 	padding: 24px;
 	text-decoration: none;
@@ -118,7 +118,7 @@ a {
   
   #navbar a:hover {
 	background-color: lightpink;
-	color: black;
+	color: #4D4646;
   }
 
   #logo {
