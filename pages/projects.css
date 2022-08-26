@@ -7,6 +7,7 @@ h1 {
 	font-size: 64px; 
 	text-align: center; 
 	font-weight: normal;
+	margin-top: 150px;
 }
 
 h3 {
@@ -35,7 +36,8 @@ li {
 }
 
 .project-body {
-	margin: 12%; 
+	margin-left: 20%; 
+	margin-right: 20%; 
 }
 
 .big-image{
@@ -46,7 +48,7 @@ li {
 
 .big-image img{
 	align-self: center;
-	width: 70%; 
+	width: 80%; 
 }
 
 .img-des {
@@ -75,6 +77,41 @@ li {
 #center {  
 	text-align: center;
 	} 
+
+	#navbar {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		display: block;
+		
+		
+	  }
+	
+ 
+	  #navbar a {
+		float: right;
+		display: block;
+		font-family: "Quicksand";
+		color: black;
+		text-align: center;
+		padding: 24px;
+		text-decoration: none;
+		font-size: 24px;
+		opacity: 100%;
+	  }
+	  #contact {
+		margin-right:48px;
+	  }
+	  
+	  #navbar a:hover {
+		background-color: lightpink;
+		color: #4D4646;
+	  }
+	
+	  #logo {
+		float: left !important;
+		padding-left: 48px !important;
+	  }
 
 
 

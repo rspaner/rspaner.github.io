@@ -1,7 +1,7 @@
 .about-me-info {
 	display: flex;
 	flex-direction: row;
-	margin: 5%; 
+	margin: 10%; 
 	justify-content: space-between; 
 }
 
@@ -24,14 +24,57 @@
 
 .about-text-description {
 	font-size: 24px; 
+	padding-top: 20px;
 }
 
 .more-about-me {
 	/* background-color: red;  */
+	color:#4D4646;
 	font-family: 'Playfair Display';
 	text-align: center; 
 	font-size: 48px;
+	line-height: 48px;
 	padding-bottom: 5%; 
 }
 
+#navbar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: block;
+	
+	
+  }
 
+  
+  .nav-right a {
+	float: right;
+	display: block;
+	font-family: "Quicksand";
+	color: #4D4646;
+	text-align: center;
+	padding: 24px;
+	margin-top: 24px;
+	text-decoration: none;
+	font-size: 24px;
+	opacity: 100%;
+  }
+  
+  #contact {
+	margin-right:48px;
+  }
+  
+  .nav-right a:hover {
+	/* background-color: lightpink; */
+	text-decoration-color: #EA7197;
+  }
+
+  #logo {
+	float: left !important;
+	margin-left: 3% !important;
+	margin-top: 18px;  
+  }
+  #logo-img {
+	width: 120px;
+	height: auto;
+  }
