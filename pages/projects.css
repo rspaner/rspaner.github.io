@@ -6,16 +6,16 @@ h1 {
 	color: #4D4646;
 	font-size: 64px; 
 	text-align: center; 
-	font-weight: normal;
+	font-weight: 100;
 	margin-top: 150px;
 }
 
 h3 {
 	/* section titles */
 	font-family: 'Playfair Display';
-	color: #B50077;
-	font-size: 48px; 
-	font-weight: normal;
+	color: #4D4646;
+	font-size: 40px; 
+	font-weight: 100;
 	margin: 0;
 	line-height: 64px 
 }
@@ -25,12 +25,12 @@ ol {
 	padding: 0; 
 }
 
-li {
+.subsection {
 	/* subsections */
 	font-family: 'Playfair Display';
-	color: #4D4646;
-	font-size: 48px; 
-	font-weight: normal;
+	color:  #7C294C;
+	font-size: 36px; 
+	font-weight: 100px;
 	line-height: 64px;
 	
 }
@@ -48,11 +48,11 @@ li {
 
 .big-image img{
 	align-self: center;
-	width: 80%; 
+	width: 100%; 
 }
 
 .img-des {
-	color: #7C294C;
+	color: #4D4646;
 	font-size: 16px; 
 	position: relative;
 	padding-bottom: 2%;
@@ -60,7 +60,7 @@ li {
 }
 
 .storyboard img{
-	width: 95%;
+	width: 100%;
 	height: 95%;
 	top: 50%;
   	left: 50%;
@@ -89,11 +89,58 @@ text-decoration-color: #EA7197;
  }
 
 .cki-images img{
-	width: 75%;
+	width: 100%;
 	height: auto;
 	padding-top: 2%;
-  	
+	padding-bottom: 3%;
+}
+
+.final-images img{
+	width: 80%;
+	height: auto;
+	padding-top: 2%;
+	margin-left: 11%;
+	margin-right:11%;
+}
+
+.findings {
+	border:  1rem dotted #EA7197;
+	outline-offset: 0.5rem;
 	
+}
+.insight {
+	padding-bottom:3%;
+	padding-left:3%;
+	padding-right: 3%;
+	font-size: 36px;
+	font-family: 'Quicksand';
+	color: #4D4646;
+	font-weight:100;
+}
+
+#problem-statement {
+	padding-bottom:30px;
+	padding-left:3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	font-size: 30px;
+	font-family: 'Quicksand';
+	color: #4D4646;
+	font-weight: 100;
+}
+
+#first {
+	padding-top:3%;
+}
+#solution {
+	font-family: 'Playfair Display';
+	font-weight:100;
+	font-size: 30px;
+	color: #4D4646;
+}
+.bold {
+	font-weight: 700;
+	font-family: Quicksand;
 }
 
 /* .reg-image{
