@@ -1,0 +1,20 @@
+  
+  .nav-right a {
+	color: #4D4646;
+  }
+  
+  #selected {
+    text-decoration: underline;
+    text-decoration-color: #EA7197;
+    color:#EA7197;
+  }
+  .nav-right a:hover {
+	text-decoration-color: #EA7197;
+    
+  }
+
+  #resume-pdf {
+    margin-top: 140px;
+  }
+
+  

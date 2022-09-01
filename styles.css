@@ -227,9 +227,9 @@ a {
 .work-description button {
 	font-family: 'Quicksand';
 	font-size: 24px;
-	border-radius: 40px;
+	border-radius: 100px;
 	width: 60%;
-	height: 10%;
+	height: 75px;
 	border: none;
 	background-color:  #ff8ea5;
 	color: white;
@@ -240,6 +240,17 @@ a {
 	color: #4D4646;
 	cursor: pointer;
 }
+
+
+  
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+  
+
 
 
 .foot {
@@ -296,5 +307,7 @@ a {
 	object-fit: contains; 
 	width: 10%; 
 	padding-left: 10%;
+	vertical-align: middle;
 }
+
 

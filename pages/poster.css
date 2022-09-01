@@ -85,9 +85,7 @@ h3 {
   }
   
   .nav-right a:hover {
-	/* background-color: lightpink; */
-	color: #EA7197;
-	text-decoration: none;
+	text-decoration-color: #EA7197;
   }
 
   #logo {

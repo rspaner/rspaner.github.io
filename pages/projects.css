@@ -13,7 +13,7 @@ h1 {
 h3 {
 	/* section titles */
 	font-family: 'Playfair Display';
-	color: #7C294C;
+	color: #B50077;
 	font-size: 48px; 
 	font-weight: normal;
 	margin: 0;
@@ -78,43 +78,23 @@ li {
 	text-align: center;
 	} 
 
-	#navbar {
-		position: absolute;
-		top: 0;
-		width: 100%;
-		display: block;
-		
-		
-	  }
-	
- 
-	  #navbar a {
-		float: right;
-		display: block;
-		font-family: "Quicksand";
-		color: black;
-		text-align: center;
-		padding: 24px;
-		text-decoration: none;
-		font-size: 24px;
-		opacity: 100%;
-	  }
-	  #contact {
-		margin-right:48px;
-	  }
+ .nav-right a {
+	color: #4D4646;
+}
 	  
-	  #navbar a:hover {
-		background-color: lightpink;
-		color: #4D4646;
-	  }
+
+.nav-right a:hover {
+/* background-color: lightpink; */
+text-decoration-color: #EA7197;
+ }
+
+.cki-images img{
+	width: 75%;
+	height: auto;
+	padding-top: 2%;
+  	
 	
-	  #logo {
-		float: left !important;
-		padding-left: 48px !important;
-	  }
-
-
-
+}
 
 /* .reg-image{
 
