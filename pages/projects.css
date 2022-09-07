@@ -17,7 +17,8 @@ h3 {
 	font-size: 40px; 
 	font-weight: 100;
 	margin: 0;
-	line-height: 64px 
+	line-height: 64px;
+	padding-top: 5%;
 }
 
 ol {
@@ -50,13 +51,45 @@ ol {
 	align-self: center;
 	width: 100%; 
 }
-
+.column {
+	float: left;
+	width: 33.33%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 .img-des {
 	color: #4D4646;
 	font-size: 16px; 
 	position: relative;
 	padding-bottom: 2%;
 	line-height: 24px;
+}
+.project-des {
+	border: 0.3rem solid #EA7197;
+	border-radius: 12px;
+	background: rgb(249, 204, 211);
+	margin-top:5%;
+}
+
+#des-header{
+	font-size:24px;
+	text-decoration:underline;
+	text-decoration-color: #EA7197;
+	
+}
+
+.team-info{
+	font-size: 20px;
+	font-style:italic;
+	color:white;
+
 }
 
 .storyboard img{
@@ -92,7 +125,13 @@ text-decoration-color: #EA7197;
 	width: 100%;
 	height: auto;
 	padding-top: 2%;
-	padding-bottom: 3%;
+
+}
+
+.sketch img {
+	width:49.5%;
+	height:auto;
+
 }
 
 .final-images img{
@@ -127,6 +166,7 @@ text-decoration-color: #EA7197;
 	font-family: 'Quicksand';
 	color: #4D4646;
 	font-weight: 100;
+	line-height: 1.5;
 }
 
 #first {
@@ -143,6 +183,15 @@ text-decoration-color: #EA7197;
 	font-family: Quicksand;
 }
 
+.left-gif {
+	border-radius:70px;
+	height:800px;;
+	width: auto;
+}
+
+.inline-block {
+	display: inline-block;
+ }
 /* .reg-image{
 
 } */
