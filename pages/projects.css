@@ -92,24 +92,14 @@ ol {
 
 }
 
-.storyboard img{
-	width: 100%;
-	height: 95%;
-	top: 50%;
-  	left: 50%;
-}
 
-.personas img{
-	
-	width: 75%;
-	height: 75%;
-	top: 50%;
-  	left: 50%;
-	padding: 2%;
-}
 #center {  
 	text-align: center;
-	} 
+} 
+
+.left {
+	text-align: left;
+}
 
  .nav-right a {
 	color: #4D4646;
@@ -183,11 +173,6 @@ text-decoration-color: #EA7197;
 	font-family: Quicksand;
 }
 
-.left-gif {
-	border-radius:70px;
-	height:800px;;
-	width: auto;
-}
 
 .inline-block {
 	display: inline-block;

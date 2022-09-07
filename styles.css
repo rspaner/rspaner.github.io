@@ -23,6 +23,7 @@ body {
 	font-style: normal;
 	font-weight: 100;
 	font-size: 100px;
+	margin-top:20px;
 }
 
 #dd {
@@ -310,4 +311,7 @@ a {
 	vertical-align: middle;
 }
 
+b {
+	font-weight:700;
+}
 
