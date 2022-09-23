@@ -118,6 +118,17 @@ text-decoration-color: #EA7197;
 
 }
 
+.mobile-old {
+	width: 100%;
+	height: auto; 
+	margin-bottom: 10%
+}
+.cki-gif{
+	width: 100%;
+	height: auto; 
+}
+
+
 .sketch img {
 	width:49.5%;
 	height:auto;

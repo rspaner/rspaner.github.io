@@ -1,34 +1,46 @@
 function copyEmail() {
-	let text = "rachelp521@gmail.com";
-	navigator.clipboard.writeText(text);
+  let text = "rachelp521@gmail.com";
+  navigator.clipboard.writeText(text);
 }
 
+// 
 
-let slideIndex = 1;
-showSlides(slideIndex);
+// var a = document.getElementById("test2")
+// console.log(a);
+// var asdf = document.getElementById("test2");
+// console.log(asdf);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+var original = "../images/heart.png";
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+(function () {
+  var images = {
+   
+    "1": "../images/sculpting.png",
+    "2": "../images/jewelry_making.png",
+    "3": "../images/crochet.png"
+    //  "4": "https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    //  "5": "http://www.smallarmssurvey.org/uploads/tx_rgslideshow/sas-homepage-armed-violence.jpg"
+  };
+  var heart = document.getElementById("empty-heart");
+  var arr = document.getElementsByClassName('fill');
+  // console.log(arr)
+  for (var i = 0; i < arr.length; i++) {
+    arr[i].onmouseover = function (e) {
+      var a = e.target;
+      var imgId = a.getAttribute('data-image-id');
+      var imgSrc = images[imgId];
+      // var style = ['background-image: url(', imgSrc, ');'].join('');
+      // background.setAttribute('style', style);
+      heart.src = imgSrc;
+      heart.setAttribute("style", "width: 350PX; height: 350px;");
+
+    } 
+    arr[i].onmouseout = function (){
+    heart.src = "../images/heart.png";
+    }
+   
   }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+
+})
+();
