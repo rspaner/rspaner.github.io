@@ -5,16 +5,17 @@
 <head>
 	<title>Rachel Paner</title>
 	<link rel="icon" sizes="16x16"
-		href="../images/favicon-red.png">
+		href="images/favicon-red.png">
 	<meta charset="utf-8">
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<meta name="viewport" content="width=1024">
 	<link rel="stylesheet" href="styles.css">
-	<script src="index.js"></script>
+	
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Vidaloka">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap">
+	<script src="https://kit.fontawesome.com/1638ad5f6b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -53,7 +54,7 @@
 		<h3 id="hello">Hello, I'm</h3>
 		<h1 id="bigname">RACHEL PANER</h1>
 		<h3 id="dd">designer & dreamer</h3>
-		<p id="blurb">
+		<p id="blurb" ">
 			I’m a UX designer devoted to combining functionality with
 			imagination to tell users a compelling story.
 		</p>
@@ -108,7 +109,7 @@
 				</p>
 				<br><br>
 				<div class="hvr-grow">
-				<button onClick="window.open('https://debatetable.wixsite.com/portfolio', '_blank')">view case study</button>
+				<button onClick="window.open('https://debatetable.wixsite.com/portfolio', '_blank')">view case study  <i class="fa-solid fa-arrow-up-right-from-square"></i> </button>
 				</div>
 			</div>
 		</div>
@@ -161,6 +162,45 @@
 				</div>
 			</div>
 		</div>
+		 <!-- Slideshow container -->
+<div class="slideshow-container fade">
+	<div class="slide-box">
+		<div class="Containers">
+			<!-- <div class="MessageInfo">2 / 3</div> -->
+			<img class="center" src="images/A2_Stage3_A.png" style="width:60%">
+			<div class="Info">Print Poster<br>
+			  Designed for: UCSD DSGN100</div>
+		  </div>
+	<!-- Full images with numbers and message Info -->
+	<div class="Containers">
+	  <!-- <div class="MessageInfo">1 / 3</div> -->
+	  <img src="images/Gina_Marquee_2.jpg" alt="Gina Chavez Marquee" style="width:100%">
+	  <div class="Info">Digital Marquee <br> Designed for: UCSD ArtPower
+	</div>
+	</div>
+  
+	
+  
+	<div class="Containers">
+	  <!-- <div class="MessageInfo">3 / 3</div> -->
+	  <img class="center" src="images/celebrate-the-arts.png" style="width:60%">
+	  <div class="Info">Social Media Graphic <br> Designed for: UCSD Campus Performing Arts and Events</div>
+	</div>
+  
+	<!-- Back and forward buttons -->
+	<a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="forward" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The circles/dots -->
+  <div style="text-align:center">
+	<span class="dots" onclick="currentSlide(1)"></span>
+	<span class="dots" onclick="currentSlide(2)"></span>
+	<span class="dots" onclick="currentSlide(3)"></span>
+  </div> 
+</div>
+	</div>
 
 	<div class="foot" id="foot">
 		<div class="left-foot-icons">
@@ -171,7 +211,6 @@
 				<img src="icons/linkedin_icon.png" alt="Click here to go to my Linkedin page"
 					title="Click here to go to my Linkedin page">
 			</a>
-
 		</div>
 
 		<div class="foot-text">
@@ -191,6 +230,7 @@
 
 
 </body>
+<script src="index.js"></script>
 
 
 </html>

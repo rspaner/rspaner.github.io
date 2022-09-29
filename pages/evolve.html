@@ -4,7 +4,7 @@
 	<head>
 		<title>EVolve</title>
 		<link rel="icon" sizes="16x16"
-		href=../images/favicon-red.png>
+		href="../images/favicon-red.png">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="../styles.css">
@@ -17,19 +17,8 @@
 	</head>
 
 	<body>
-		<!-- <nav class="navbar"> 
-			<div class="logo">
-				<a href="../index.html">RP</a>
-			</div>
-			
-			<div class="nav-links">
-				<a href="../index.html#work" class="nav-link">Work</a>
-				<a href="about.html" class="nav-link">About</a>
-				<a href="resume.html" class="nav-link">Resume</a>
-				<a href="#foot" class="nav-link">Contact</a>
-			</div>
-
-		</nav> -->
+		<!-- <div class="gradient-bg"> -->
+		
 		<div id="navbar">
 			<div class="nav-right">
 				<a id="contact" href="#foot" class="nav-link">Contact</a>
@@ -73,15 +62,20 @@
 
 
 			<h3>Identifying the Problem</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas morbi viverra etiam sit elementum ornare aliquet integer nec. A, scelerisque viverra pretium bibendum sapien convallis euismod viverra commodo. Feugiat malesuada scelerisque malesuada lacus. Donec pulvinar est tincidunt sed nibh ullamcorper massa non. Habitant gravida at sed consequat, lacus condimentum pellentesque mauris. Tellus posuere in ultrices felis velit senectus adipiscing. Eu viverra at ut condimentum lectus. Tellus molestie amet elementum leo ultrices amet tincidunt. Volutpat pellentesque donec dictum dictum quam ac.</p>
-			<p class="bold"> With that it mind, we thought about...</p>
+			<p>Our team started off by researching articles, official government documents, and online communities to gain a bettter understanding about the current discourse and public opinion surrounding electric vehicles.</p>
+				
+			<img id="evolve-img" src="../images/evolve/Map.png" alt="problems, constraints, and potential">
+			
+			<p> Through our <a id="proto-link" style="text-decoration: underline" href="https://docs.google.com/document/d/1BpImouls4tJksdx74e58mxpmOe0mT9Lb7nmTLWcZTtE/edit">web research</a>, we were able to create a a diagram of constraints, problems, and potential solutions, and brainstorm further ideas to tackle these issues. </p> Our findings were exemplified by this statement from the 2021 EV Consumer Behavior Report by Fuels Institute, “Factors influencing likeliness of PEV purchase in 2017- 2019 are 
+			Affordability, Time Saving, Charger Availability, Familiarity and Options.” <br><br>
 			
 
-			
-			<p class=findings id="problem-statement"><b>How might we help <span style="color: #EA7197">prospective EV Buyers  become more informed on technical and financial aspects of owning an EV </span>in order to facilitate their transition from gas-powered to electric vehicles?</b> <br>
+			<img id="evolve-img" src="../images/evolve/brainstorming.png" alt="Brainstorming on Figma">
+			<p class="img-des"><i>Brainstorming on Figma</i></p>
 
-				<!-- <b>Moreover, how could we help <span style="color: #EA7197">current owners and prospective buyers connect with each other </span>in order to help facilitate the global transition to EVs?</b>
-				</p> -->
+			<p class="intro-problem"> With these ideas in mind, we thought about...</p>
+			
+			<p class=findings id="problem-statement"><b>How might we help <span style="color: #EA7197">prospective EV Buyers become more informed on technical and financial aspects of owning an EV </span>in order to facilitate their transition from gas-powered to electric vehicles?</b> <br>
 
 			<h3>User Research</h3>
 			<ol type="I">
@@ -136,7 +130,7 @@
 
 			</ol>
 
-			<p><b>So, our solution evolved into...</b></p>
+			<span class="intro-problem">So, our solution evolved into...</span>
 			<p id="solution"><span style="color:#EA7197">EVolve</span>, the one-stop-shop for sustainable transportation preparation</p>
 			<p>Our goal is to help the user create a curated financial plan, get matched with a car based on their lifestyle, and connect with a community of other prospective and current EV owners so that they can be more prepared and open to transitioning to an EV. </p>
 
@@ -157,12 +151,16 @@
 
 				<li class="subsection">User Testing</li>
 				<p>We solicited other students and returned to our interviewees from the User Research stage to conduct short-task interviews in order to test our prototype. Many testers were able to complete the tasks with ease and remarked on the straightforward layout and interactions, but we stumbled on a few common errors caused by:
+				
+					<div class="error-list" id="center">
+
+						<div class="column"><p id="error"> Unclear Icons/Signifiers</div>
+						<div class="column"><p id="error">Low Readability</div>
+						<div class="column"><p id="error">Lack of Clear Hierarchy
+						</div>
+					</div>
 					
-						<p id="error-title">Unclear Icons/Signifiers</p>
-						<p></p>
 						
-						<p id="error-title">Low Readability</p></li>
-						<p class="error-title">Lack of Clear Hierarchy/Grouping</p>
 						<img id="evolve-img" src="../images/evolve/improvements.png" alt="Lo-fi Prototype screens created on Figma">
 				
 
@@ -318,7 +316,7 @@
 			</div>
 		</div>
 
-
+	<!-- </div> -->
 	</body>
 
 </html>

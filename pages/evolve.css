@@ -14,10 +14,23 @@
 	padding: 2%;
 }
 
+#error {
+    font-family:'Quicksand';
+    font-weight: bold;
+    font-size: 32px;
+    color:#b20a50 !important;
+
+}
+
+.error-list{
+    border: 0.3rem solid white;
+}
+
 .left-feature{
     display: flex;
     flex-direction: row;
 	color: #4D4646;
+    /* background-color: #f6d2ce; */
   
    
 }
@@ -27,6 +40,7 @@
     flex-direction: row;
 	color: #4D4646;
     background-color: #f6d2ce;
+    /* background-image: linear-gradient(to right, #ffa4bd, #ffb3c3, #ffc3cb, #ffd2d5, #ffe1e1, #ffe0dd, #ffded9, #ffddd5, #ffccba, #ffbc9e, #ffad7f, #fe9f5f); */
 }
 
 .left-gif {
@@ -131,6 +145,7 @@
     width: 100%;
     height: auto;
     filter: drop-shadow(0px 4px 4px rgba(79, 79, 79, 0.25));
+    /* padding-bottom:5%; */
 }
 
 #proto-link{

@@ -1,6 +1,8 @@
 body {
 	margin: 0;
 	background-color:#FFF5F4;
+	
+	
 	font-family: 'Quicksand';
 	font-size: 20px;
 	line-height: 32px;
@@ -38,8 +40,15 @@ body {
 #blurb {
 	font-size: 30px;
 	padding-top:3%;
-	padding-bottom: 10%
+	padding-bottom: 10%;
 }
+
+.word {
+	margin: auto;
+	color: white;
+	font: 700 normal 2.5em 'tahoma';
+	text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
 
 
 
@@ -192,7 +201,7 @@ a {
 }
 
 .image-holder {
-	width: 70%;
+	width: 60%;
 }
 
 .image-holder img {
@@ -207,7 +216,7 @@ a {
 	flex-direction: column;
 	align-items: right;
 	padding-left: 10%;
-	max-width: 30%;
+	max-width: 40%;
 }
 
 .work-description h3 {
@@ -261,14 +270,12 @@ a {
   }
 
   
-  .center {
+.center {
       display: block;
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-    }
-  
-
+}
 
 
 .foot {
@@ -277,6 +284,7 @@ a {
 	color: white;
 	bottom: 0;
 	background-color: #ed90a0;
+	/* background-image: linear-gradient(to right, #ff7990, #fc7e93, #f98296, #f58799, #f28b9c, #f38f9b, #f4949a, #f49899, #f89f94, #faa790, #faaf8d, #f9b88c); */
 	padding: 2%;
 }
 
@@ -330,5 +338,106 @@ a {
 
 b {
 	font-weight:700;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  /* max-width: 1000px; */
+  width:50%;
+  position: relative;
+  margin: auto;
+}
+.slide-box {
+	height:50%;
+  	width:auto;
+
+}
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+  
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption Info */
+.Info {
+  color:  #7C294C;
+  font-size: 16px;
+  padding: 5%;
+  /* position: absolute; */
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
+
+/* Worknumbering (1/3 etc) */
+.MessageInfo {
+  color: #f2f2f3;
+  font-size: 14px;
+  padding: 10px 14px;
+  position: absolute;
+  top: 0;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
 }
 
