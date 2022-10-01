@@ -36,6 +36,7 @@ ol {
 	font-size: 36px; 
 	font-weight: 100px;
 	line-height: 64px;
+	padding-top: 2%;
 	
 }
 
@@ -57,6 +58,13 @@ ol {
 }
 .column {
 	float: left;
+	width: 33.33%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+  }
+
+  .col{
+	float:left;
 	width: 33.33%;
 	padding-top: 2%;
 	padding-bottom: 5%;
@@ -117,24 +125,6 @@ ol {
 text-decoration-color: #EA7197;
  }
 
-.cki-images img{
-	width: 100%;
-	height: auto;
-	padding-top: 2%;
-
-}
-
-.mobile-old {
-	width: 100%;
-	height: auto; 
-	margin-bottom: 10%
-}
-.cki-gif{
-	width: 100%;
-	height: auto; 
-}
-
-
 .sketch img {
 	width:49.5%;
 	height:auto;
@@ -152,7 +142,7 @@ text-decoration-color: #EA7197;
 .findings {
 	border:  1rem dotted #EA7197;
 	outline-offset: 0.5rem;
-	
+	margin-bottom: 3%;
 	
 }
 .insight {
@@ -169,7 +159,7 @@ text-decoration-color: #EA7197;
 	font-size: 28px;
 	color:#4D4646;
 	font-style: bold;
-	padding-top: 5%;
+	padding-top: 2%;
 }
 
 #problem-statement {
@@ -184,7 +174,11 @@ text-decoration-color: #EA7197;
 	line-height: 1.5;
 	
 }
-
+.peach-bg{
+	background: #f6d2ce;
+	padding-top: 2%;
+	padding-bottom:2%;
+}
 #first {
 	padding-top:3%;
 }
@@ -203,6 +197,8 @@ text-decoration-color: #EA7197;
 .inline-block {
 	display: inline-block;
  }
+
+ 
 /* .reg-image{
 
 } */

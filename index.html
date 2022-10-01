@@ -10,6 +10,8 @@
 	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 	<meta name="viewport" content="width=1024">
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="slideshow.css">
+	<link rel="stylesheet" href="hover.css">
 	
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
@@ -54,10 +56,12 @@
 		<h3 id="hello">Hello, I'm</h3>
 		<h1 id="bigname">RACHEL PANER</h1>
 		<h3 id="dd">designer & dreamer</h3>
-		<p id="blurb" ">
+		<div class="container">
+		<p id="blurb" class="typed-out">
 			I’m a UX designer devoted to combining functionality with
 			imagination to tell users a compelling story.
 		</p>
+		</div>
 		<!-- <h5>
 			Hello, I'm <br>
 			<span style="font-size: 120px"> RACHEL PANER <br></span>
@@ -79,7 +83,7 @@
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img src="images/EVolveGroup.png" alt="EVolve prototype title screens">
+				<img class="hvr-float-shadow" src="images/EVolveGroup.png" alt="EVolve prototype title screens">
 			</div>
 
 			<div class="work-description">
@@ -93,10 +97,11 @@
 				</div>
 			</div>
 		</div>
+		<br>
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img src="images/DebateTable.png" alt="DebateTable login and homepage prototype screens">
+				<img class="hvr-float-shadow" src="images/DebateTable.png" alt="DebateTable login and homepage prototype screens">
 			</div>
 
 			<div class="work-description">
@@ -113,10 +118,11 @@
 				</div>
 			</div>
 		</div>
+		<br>
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img src="images/CKI.png" alt="Mobile and desktop versions of redesigned UCSD CKI homepage">
+				<img class="hvr-float-shadow" src="images/CKI.png" alt="Mobile and desktop versions of redesigned UCSD CKI homepage">
 			</div>
 
 			<div class="work-description">
@@ -146,7 +152,7 @@
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img src="images/Artist_Statement_Poster.png" alt="Denotative, connotative, and exhibition posters">
+				<img class="hvr-float-shadow" src="images/Artist_Statement_Poster.png" alt="Denotative, connotative, and exhibition posters">
 			</div>
 
 			<div class="work-description">
@@ -162,27 +168,31 @@
 				</div>
 			</div>
 		</div>
+		<br>
+
 		 <!-- Slideshow container -->
 <div class="slideshow-container fade">
 	<div class="slide-box">
 		<div class="Containers">
-			<!-- <div class="MessageInfo">2 / 3</div> -->
 			<img class="center" src="images/A2_Stage3_A.png" style="width:60%">
 			<div class="Info">Print Poster<br>
 			  Designed for: UCSD DSGN100</div>
 		  </div>
-	<!-- Full images with numbers and message Info -->
 	<div class="Containers">
-	  <!-- <div class="MessageInfo">1 / 3</div> -->
-	  <img src="images/Gina_Marquee_2.jpg" alt="Gina Chavez Marquee" style="width:100%">
+
+	  <img src="images/Gina_Chavez_Event_Announcement.jpg" alt="Gina Chavez Marquee" class = "center" style="width:80%">
 	  <div class="Info">Digital Marquee <br> Designed for: UCSD ArtPower
 	</div>
 	</div>
-  
+	<div class="Containers">
+		<img src="images/Ariel_Quartet_Poster_Final .jpg" alt="Ariel Quartet Poster" class = "center" style="width:60%">
+		<div class="Info">Print Poster <br> Designed for: UCSD ArtPower
+	  </div>
+	  </div>
+	
 	
   
 	<div class="Containers">
-	  <!-- <div class="MessageInfo">3 / 3</div> -->
 	  <img class="center" src="images/celebrate-the-arts.png" style="width:60%">
 	  <div class="Info">Social Media Graphic <br> Designed for: UCSD Campus Performing Arts and Events</div>
 	</div>
@@ -191,13 +201,14 @@
 	<a class="Back" onclick="plusSlides(-1)">&#10094;</a>
 	<a class="forward" onclick="plusSlides(1)">&#10095;</a>
   </div>
-  <br>
+  <!-- <br> -->
   
   <!-- The circles/dots -->
   <div style="text-align:center">
 	<span class="dots" onclick="currentSlide(1)"></span>
 	<span class="dots" onclick="currentSlide(2)"></span>
 	<span class="dots" onclick="currentSlide(3)"></span>
+	<span class="dots" onclick="currentSlide(4)"></span>
   </div> 
 </div>
 	</div>
@@ -230,7 +241,7 @@
 
 
 </body>
-<script src="index.js"></script>
+<script src="slideshow.js"></script>
 
 
 </html>

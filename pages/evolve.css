@@ -18,12 +18,16 @@
     font-family:'Quicksand';
     font-weight: bold;
     font-size: 32px;
-    color:#b20a50 !important;
+    color:#7C294C !important;
 
 }
 
 .error-list{
-    border: 0.3rem solid white;
+    border: 0.5rem solid #7C294C;
+    border-radius:40px;
+    background:#f6d2ce;
+    overflow:hidden;
+    margin-bottom: 5%;
 }
 
 .left-feature{
@@ -145,10 +149,13 @@
     width: 100%;
     height: auto;
     filter: drop-shadow(0px 4px 4px rgba(79, 79, 79, 0.25));
-    /* padding-bottom:5%; */
+}
+.image-space {
+    padding-bottom:5%;
 }
 
 #proto-link{
     color:#b20a50 !important;
 }
+
 

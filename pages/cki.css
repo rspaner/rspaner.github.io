@@ -1,0 +1,55 @@
+.cki-images img{
+	width: 100%;
+	height: auto;
+	padding-top: 2%;
+
+}
+
+.cki-final-gif {
+    border-radius:60px;
+    width:25%;
+    vertical-align:top;
+    margin-top:3%;
+
+}
+.cki-final-gif img{
+	
+	width:20%;
+	height: auto;
+	padding-top: 2%;
+}
+
+.cki-border {
+	border: 0.3rem solid #7C294C;
+    border-radius:10px;
+    background:#f4dbd9;
+    margin-bottom: 5%;
+}
+
+.cki-error {
+	text-align:center;
+	margin-left:2%;
+	margin-right:2%;
+	color: #7C294C;
+}
+
+.mobile-old {
+	width: 100%;
+	height: auto; 
+	margin-bottom: 10%
+}
+.cki-gif{
+	width: 100%;
+	height: auto; 
+}
+
+#about-demo{
+    width: 50%;
+	height: auto;
+	padding-top: 2%;
+    margin-left: 11%;
+}
+
+.mobile-about{
+    margin-top:5%;
+}
