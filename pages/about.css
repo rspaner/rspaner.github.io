@@ -34,12 +34,13 @@
 	font-family:'Playfair Display';
 	color:#4D4646;
 	text-align:center;
-	font-size: 32px;
+	font-size:30px;
 	margin-left :15%;
 	margin-right:15%;
-	margin-bottom:10%;
+	margin-bottom: 5%;
 	margin-top:2%;
 	opacity:80%;
+	line-height: 40px;
 }
 
 .more-about-me {
@@ -50,6 +51,7 @@
 	font-size: 48px;
 	line-height: 48px;
 	padding-bottom: 5%;
+
 }
 .more-about-me span:hover{
 	color:#7C294C !important; 
@@ -86,9 +88,17 @@
 	
 	height: auto;
 	padding-top: 5%;
-	padding-bottom: 10%;
+
 
 }
 #heart-container{
 	text-align: center;
 }
+
+.thank-you {
+	font-family: 'Playfair Display';
+	size: 16px;
+	color: #4D4646;
+	margin-top:5%;
+	opacity: 75%;
+ }

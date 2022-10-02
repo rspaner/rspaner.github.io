@@ -1,5 +1,5 @@
 var _CONTENT = [ 
-	"I’m a UX designer at UC San Diego", 
+	"I’m a UI/UX designer at UC San Diego", 
 	"Devoted to combining functionality with imagination to tell users a compelling story :)"
 	// "Up above the world so high", 
 	// "Like a diamond in the sky"
