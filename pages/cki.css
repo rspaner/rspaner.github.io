@@ -53,3 +53,59 @@
 .mobile-about{
     margin-top:5%;
 }
+
+#about-final{
+    margin-left: 15%;
+    margin-right:15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#about-final img{
+    width: 100%;
+}
+.right-gif {
+    float: right;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-right: 20%; 
+    margin-left:15%;
+	border-radius:45px;
+	width:18%;
+	height: auto;
+}
+
+.right-feature {
+    display: flex;
+    flex-direction: row;
+	color: black;
+    background-color: #f6d2ce;
+    /* background-image: linear-gradient(to right, #ffa4bd, #ffb3c3, #ffc3cb, #ffd2d5, #ffe1e1, #ffe0dd, #ffded9, #ffddd5, #ffccba, #ffbc9e, #ffad7f, #fe9f5f); */
+}
+.feature-head {
+    color:#7C294C;
+    font-size:24px;
+    margin-bottom: 5%;
+}
+
+.final-images{
+    padding-bottom:5%;
+}
+
+.feature-des{
+   
+   font-size:20px;
+   padding-bottom: 5%;
+   text-align:left;
+}
+.custom-indent {
+    text-indent: -20px; /* key property */
+    margin-left: 20px; /* key property */   
+}
+.right-feature-info{
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left: 20%;
+}

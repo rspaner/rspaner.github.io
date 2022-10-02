@@ -45,7 +45,7 @@
 
 /*when the user hovers,add a black background with some little opacity */
 .Back:hover, .forward:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(71, 14, 38, 0.8);
 }
 
 /* Caption Info */

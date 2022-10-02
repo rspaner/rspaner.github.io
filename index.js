@@ -4,7 +4,6 @@ function copyEmail() {
 }
 
 
-
 // 
 
 // var a = document.getElementById("test2")

@@ -56,11 +56,21 @@
 		<h3 id="hello">Hello, I'm</h3>
 		<h1 id="bigname">RACHEL PANER</h1>
 		<h3 id="dd">designer & dreamer</h3>
-		<div class="container">
-		<p id="blurb" class="typed-out">
+		
+		<!-- <span id ="blurb">
+			<span class="text_1">I’m a UX designer at UC San Diego</span>
+			<span class="text_2">Devoted to combining functionality with
+				imagination to tell users a compelling story :) </span>
+		</span> -->
+		<div id="container">
+			<div class="blurb" id="text"></div><div id="cursor"></div>
+		</div>
+		<script src="typing.js"></script>
+
+		<!-- <p id="blurb" class="typed-text">
 			I’m a UX designer devoted to combining functionality with
-			imagination to tell users a compelling story.
-		</p>
+			imagination to tell users a compelling story :) 
+		</p> -->
 		</div>
 		<!-- <h5>
 			Hello, I'm <br>
@@ -83,7 +93,7 @@
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img class="hvr-float-shadow" src="images/EVolveGroup.png" alt="EVolve prototype title screens">
+				<img onClick="self.location='pages/evolve.html'" class="hvr-float-shadow" src="images/EVolveGroup.png" alt="EVolve prototype title screens">
 			</div>
 
 			<div class="work-description">
@@ -101,7 +111,7 @@
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img class="hvr-float-shadow" src="images/DebateTable.png" alt="DebateTable login and homepage prototype screens">
+				<img onClick="window.open('https://debatetable.wixsite.com/portfolio', '_blank')" class="hvr-float-shadow" src="images/DebateTable.png" alt="DebateTable login and homepage prototype screens">
 			</div>
 
 			<div class="work-description">
@@ -122,7 +132,7 @@
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img class="hvr-float-shadow" src="images/CKI.png" alt="Mobile and desktop versions of redesigned UCSD CKI homepage">
+				<img onClick="self.location='pages/cki.html'" class="hvr-float-shadow" src="images/CKI.png" alt="Mobile and desktop versions of redesigned UCSD CKI homepage">
 			</div>
 
 			<div class="work-description">
@@ -141,7 +151,7 @@
 				</div>
 			</div>
 		</div>
-
+<br><br>
 	
 	</div>
 
@@ -152,7 +162,7 @@
 
 		<div class="preview-card">
 			<div class="image-holder">
-				<img class="hvr-float-shadow" src="images/Artist_Statement_Poster.png" alt="Denotative, connotative, and exhibition posters">
+				<img onClick="self.location='pages/poster.html'" class="hvr-float-shadow" src="images/Artist_Statement_Poster.png" alt="Denotative, connotative, and exhibition posters">
 			</div>
 
 			<div class="work-description">
