@@ -80,6 +80,7 @@
     flex-direction: row;
 	color: black;
     background-color: #f6d2ce;
+    margin-bottom: 2%;
     /* background-image: linear-gradient(to right, #ffa4bd, #ffb3c3, #ffc3cb, #ffd2d5, #ffe1e1, #ffe0dd, #ffded9, #ffddd5, #ffccba, #ffbc9e, #ffad7f, #fe9f5f); */
 }
 .feature-head {

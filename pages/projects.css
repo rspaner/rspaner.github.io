@@ -198,6 +198,13 @@ text-decoration-color: #EA7197;
 	display: inline-block;
  }
 
+ .thank-you {
+	font-family: 'Playfair Display';
+	size: 16px;
+	color: #4D4646;
+	margin-top:5%;
+	opacity: 75%;
+ }
  
 /* .reg-image{
 
