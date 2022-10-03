@@ -9,6 +9,8 @@
 
 .pfp img {
 	width: 70%;
+	display: flex;
+	flex-direction: column;
 	height: auto;
 }
 
