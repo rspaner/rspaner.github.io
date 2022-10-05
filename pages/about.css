@@ -7,10 +7,12 @@
 	justify-content: space-between;
 }
 
-.pfp img {
-	width: 70%;
+.pfp {
 	display: flex;
 	flex-direction: column;
+}
+.pfp img {
+	width: 70%;
 	height: auto;
 }
 
