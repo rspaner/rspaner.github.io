@@ -307,7 +307,8 @@
 	
 		<div class="foot" id="foot">
 			<div class="left-foot-icons">
-				<img src="../icons/mail_icon.png" alt="Click here to copy my email to the clipboard">
+				<img title="Click here to copy my email to clipboard" src="icons/mail_icon.png"
+				alt="Click here to copy my email to the clipboard" onclick="copyEmail()">
 
 				<a href="https://www.linkedin.com/in/rachel-paner-82ab31226/" target="_blank">
 					<img src="../icons/linkedin_icon.png" alt="Click here to go to my Linkedin page">
@@ -322,7 +323,9 @@
 			</div>
 
 			<div class="right-foot-icons">
-				<img src="../icons/resume_icon.png" alt="Click here to download my resume">
+				<a href="../images/Resume_2022.pdf" download="Resume_2022">
+					<img src="../icons/resume_icon.png" title="Click here to download my resume" alt ="Click here to download my resume">
+					</a>
 				<a href="https://github.com/rspaner" target="_blank">
 					<img src="../icons/github_icon.png" alt="Click here to go to my github page">
 				</a>
@@ -331,5 +334,6 @@
 
 	<!-- </div> -->
 	</body>
+	<script src="index.js"></script>
 
 </html>

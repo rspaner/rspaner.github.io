@@ -77,6 +77,7 @@
 			</div>
 			<p>The final Exhibition Poster serves as a visual expression of my artistic influences and the principles learned through previous typography and image-making exercises. Most notably, the title of the exhibition changed to “Rediscovering Imagination”, as I felt it more acutely encapsulated the innocence and wonder of childhood and its juxtaposition to the stringent realities of adulthood. As this subject has strong ties to storytelling, I was inspired by the visuals in science fiction and fantasy novels. 
 			</p>
+			
 			<p>
 			The background image was initially created using Photoshop, in which I repeatedly applied a warp effect to a photo taken of ribbons stuffed in the head of a desk lamp. I then adjusted the colors to create panels that represented the four elements, a nod to the thematic prevalence of nature in Impressionism, one of the influences described in my Artist Statement. Utilizing the flowing ribbon’s resemblance to hair, I painted over the image in Procreate, referencing Victorian portraits to establish a dreamy, regal tone, reminscent of a fairytale character. The typeface, “All Round Gothic”, was selected due to its minimalistic and contempary shape, which serves to combine the sleek modernity of the future with the vibrant, romantic image of the past.</p>
 		</div>
@@ -85,7 +86,8 @@
 
 		<div class="foot" id="foot">
 			<div class="left-foot-icons">
-				<img src="../icons/mail_icon.png" alt="Click here to copy my email to the clipboard">
+				<img title="Click here to copy my email to clipboard" src="icons/mail_icon.png"
+				alt="Click here to copy my email to the clipboard" onclick="copyEmail()">
 
 				<a href="https://www.linkedin.com/in/rachel-paner-82ab31226/" target="_blank">
 					<img src="../icons/linkedin_icon.png" alt="Click here to go to my Linkedin page">
@@ -100,7 +102,9 @@
 			</div>
 
 			<div class="right-foot-icons">
-				<img src="../icons/resume_icon.png" alt="Click here to download my resume">
+				<a href="../images/Resume_2022.pdf" download="Resume_2022">
+					<img src="../icons/resume_icon.png" title="Click here to download my resume" alt ="Click here to download my resume">
+					</a>
 				<a href="https://github.com/rspaner" target="_blank">
 					<img src="../icons/github_icon.png" alt="Click here to go to my github page">
 				</a>
@@ -109,6 +113,7 @@
 
 
 	</body>
+	<script src="index.js"></script>
 
 
 </html>
