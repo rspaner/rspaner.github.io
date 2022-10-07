@@ -4,21 +4,22 @@ h1 {
 	/* title of the page */
 	font-family: 'Playfair Display';
 	color: #4D4646;
-	font-size: 64px; 
+	font-size: 4rem; 
 	text-align: center; 
 	font-weight: 100;
 	margin-top: 20%;
 	margin-bottom:7%;
+	line-height:4rem;
 }
 
 h3 {
 	/* section titles */
 	font-family: 'Playfair Display';
 	color: #4D4646;
-	font-size: 40px; 
+	font-size: 2.5rem; 
 	font-weight: 100;
 	margin: 0;
-	line-height: 64px;
+	line-height: 4rem;
 	padding-top: 2%;
 }
 
@@ -33,9 +34,9 @@ ol {
 	/* subsections */
 	font-family: 'Playfair Display';
 	color:  #7C294C;
-	font-size: 36px; 
-	font-weight: 100px;
-	line-height: 64px;
+	font-size: 2.25rem; 
+	font-weight: 6.25rem;
+	line-height:4rem;
 	padding-top: 2%;
 	
 }
@@ -55,6 +56,9 @@ ol {
 .big-image img{
 	align-self: center;
 	width: 100%; 
+}
+.columns {
+	margin-bottom:1%;
 }
 .column {
 	float: left;
@@ -78,14 +82,14 @@ ol {
   }
 .img-des {
 	color: #575252;
-	font-size: 16px; 
+	font-size: 1rem; 
 	position: relative;
 	padding-bottom: 2%;
-	line-height: 24px;
+	line-height: 1.5rem;
 }
 .project-des {
 	border: 0.3rem solid #EA7197;
-	border-radius: 12px;
+	border-radius: .75rem;
 	/* background: rgb(249, 204, 211); */
 	background-image: linear-gradient(to right bottom, #faceda, #fcd5dd, #fddce1, #fee4e5, #ffebeb, #ffeae8, #ffe9e6, #ffe8e3, #ffdfd5, #ffd7c6, #fccfb6, #f8c8a6);
 	margin-top:5%;
@@ -93,14 +97,14 @@ ol {
 }
 
 #des-header{
-	font-size:24px;
+	font-size:1.5rem;
 	text-decoration:underline;
 	text-decoration-color: #EA7197;
 	
 }
 
 .team-info{
-	font-size: 20px;
+	font-size: 1.25rem;
 	font-style:italic;
 	color:#EA7197;
 
@@ -149,14 +153,14 @@ text-decoration-color: #EA7197;
 	padding-bottom:3%;
 	padding-left:3%;
 	padding-right: 3%;
-	font-size: 36px;
+	font-size: 2.25rem;
 	font-family: 'Quicksand';
 	color: #4D4646;
 	font-weight:100;
 }
 
 .intro-problem {
-	font-size: 28px;
+	font-size: 1.75rem;
 	color:#4D4646;
 	font-style: bold;
 	padding-top: 2%;
@@ -167,7 +171,7 @@ text-decoration-color: #EA7197;
 	padding-left:3%;
 	padding-right: 3%;
 	padding-top: 3%;
-	font-size: 30px;
+	font-size: 1.875rem;
 	font-family: 'Quicksand';
 	color: #4D4646;
 	font-weight: 100;
@@ -185,7 +189,7 @@ text-decoration-color: #EA7197;
 #solution {
 	font-family: 'Playfair Display';
 	font-weight:100;
-	font-size: 30px;
+	font-size: 1.875rem;
 	color: #4D4646;
 }
 .bold {
@@ -200,7 +204,7 @@ text-decoration-color: #EA7197;
 
  .thank-you {
 	font-family: 'Playfair Display';
-	size: 16px;
+	size: 1rem;
 	color: #4D4646;
 	margin-top:5%;
 	opacity: 75%;

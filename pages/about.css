@@ -11,40 +11,48 @@
 	display: flex;
 	flex-direction: column;
 }
+
 .pfp img {
-	width: 70%;
+	width: 75%;
 	height: auto;
 }
+@media screen and (max-width: 360px) {
+    .pfp img {
+        display: block;
+        width: 100%;
+    }
+}
+
 
 .about-me-text {
-	display: flex;
-	flex-direction: column;
-	width: 50%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .about-text-header {
 	/* display: flex;
 	flex-direction: row; */
 	font-family: 'Playfair Display';
-	font-size: 48px;
+	font-size: 3rem;
 }
 
 .about-text-description {
-	font-size: 24px;
-	padding-top: 20px;
+	font-size: 1.5rem;
+	padding-top: 1.25rem;
 }
 
 .about-line{
 	font-family:'Playfair Display';
 	color:#4D4646;
 	text-align:center;
-	font-size:30px;
-	margin-left :15%;
-	margin-right:15%;
+	font-size:1.875rem;
+	margin-left :20%;
+	margin-right:20%;
 	margin-bottom: 5%;
 	margin-top:2%;
 	opacity:80%;
-	line-height: 40px;
+	line-height: 2.5rem;
 }
 
 .more-about-me {
@@ -52,8 +60,8 @@
 	color: #4D4646;
 	font-family: 'Playfair Display';
 	text-align: center;
-	font-size: 48px;
-	line-height: 48px;
+	font-size: 3rem;
+	line-height: 3rem;
 	padding-bottom: 5%;
 
 }
@@ -64,14 +72,14 @@
 }
 
 
-#navbar {
+/* #navbar {
 	position: absolute;
 	top: 0;
 	width: 100%;
 	display: block;
 
 
-}
+} */
 
 .nav-right a {
 	color: #4D4646;
@@ -101,7 +109,7 @@
 
 .thank-you {
 	font-family: 'Playfair Display';
-	size: 16px;
+	size: 1rem;
 	color: #4D4646;
 	margin-top:5%;
 	opacity: 75%;

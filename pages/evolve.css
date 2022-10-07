@@ -17,14 +17,14 @@
 #error {
     font-family:'Quicksand';
     font-weight: bold;
-    font-size: 32px;
+    font-size: 2rem;
     color:#7C294C !important;
 
 }
 
 .error-list{
     border: 0.5rem solid #7C294C;
-    border-radius:40px;
+    border-radius:2.5rem;
     background:#f6d2ce;
     overflow:hidden;
     margin-bottom: 5%;
@@ -53,8 +53,8 @@
     margin-top: 5%;
     margin-left: 20%; 
     margin-right: 20%;
-	border-radius:40px;
-	height:500px;
+	border-radius:2.5rem;
+	height:31.25rem;
 	width: auto;
 }
 
@@ -64,8 +64,8 @@
     margin-top: 5%;
     margin-right: 25%; 
     margin-left:15%;
-	border-radius:40px;
-	height:500px;
+	border-radius:2.5rem;
+	height:31.25rem;
 	width: auto;
 }
 
@@ -79,8 +79,8 @@
 }
 
 .gas-img{
-    border-radius:40px;
-	height:500px;
+    border-radius:2.5rem;
+	height:31.25rem;
 	width: auto;
     margin-left:10%;
     margin-right:10%;
@@ -101,8 +101,8 @@
 }
 
 .log-img{
-    border-radius:40px;
-	height:500px;
+    border-radius:1.5rem;
+	height:31.25rem;
 	width: auto;
  
 }
@@ -125,23 +125,23 @@
     
 .feature-head {
     font-family:'Playfair Display';
-    font-size: 36px;
-    margin-top:0px;
+    font-size: 2.25rem;
+   
 }
 
 .feature-des{
    
-   font-size:20px;
+   font-size:1.25rem;
    padding-bottom: 5%;
    text-align:left;
 }
 .custom-indent {
-    text-indent: -20px; /* key property */
-    margin-left: 20px; /* key property */   
+    text-indent: -1.25rem; /* key property */
+    margin-left: 1.25rem; /* key property */   
 }
 .big-indent {
-    text-indent: -36px; /* key property */
-    margin-left: 36px; /* key property */   
+    text-indent: -2.25rem; /* key property */
+    margin-left: 2.25rem; /* key property */   
 }
 
 #evolve-img{
