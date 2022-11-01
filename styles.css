@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	background-color:#FFF5F4;
-	font-family: 'Quicksand';
+	font-family: 'Raleway';
 	font-size: 1.25rem;
 	line-height: 2rem;;
 }
@@ -76,7 +76,7 @@ h6 {
 }
 
 nav {
-	font-family: 'Quicksand';
+	font-family: 'Raleway';
 	background-color: #E4929C;
 	color: white;
 	font-size: 1.5rem;
@@ -84,11 +84,11 @@ nav {
 }
 
 p {
-	font-family: 'Quicksand'
+	font-family: 'Raleway'
 }
 
 a {
-	font-family: 'Quicksand';
+	font-family: 'Raleway';
 	color: white;
 	text-decoration: none;
 }
@@ -118,7 +118,7 @@ a {
   .nav-right a {
 	float: right;
 	display: block;
-	font-family: "Quicksand";
+	font-family: "Raleway";
 	color: #FFF5F4;
 	text-align: center;
 	padding: 1.5rem;
@@ -222,7 +222,7 @@ a {
 }
 
 .work-description p {
-	font-family: 'Quicksand';
+	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.5rem;
@@ -230,7 +230,7 @@ a {
 }
 
 .work-description button {
-	font-family: 'Quicksand';
+	font-family: 'Raleway';
 	font-size: 1.5rem;
 	border-radius: 6.25rem;
 	width: 60%;
