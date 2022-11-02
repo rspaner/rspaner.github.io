@@ -156,13 +156,13 @@ text-decoration-color: #EA7197;
 	font-size: 2.25rem;
 	font-family: 'Raleway';
 	color: #4D4646;
-	font-weight:100;
+	font-weight:300;
 }
 
 .intro-problem {
 	font-size: 1.75rem;
 	color:#4D4646;
-	font-style: bold;
+	font-style: 600;
 	padding-top: 2%;
 }
 
@@ -174,7 +174,7 @@ text-decoration-color: #EA7197;
 	font-size: 1.875rem;
 	font-family: 'Raleway';
 	color: #4D4646;
-	font-weight: 100;
+	font-weight: 400;
 	line-height: 1.5;
 	
 }
@@ -193,7 +193,7 @@ text-decoration-color: #EA7197;
 	color: #4D4646;
 }
 .bold {
-	font-weight: 700;
+	font-weight: 600;
 	font-family: Raleway;
 }
 
