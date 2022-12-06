@@ -6,6 +6,17 @@ body {
 	line-height: 2rem;;
 }
 
+.update-text {
+	padding-top: 2em;
+	font-size: 2rem;
+	font-family: 'Raleway';
+}
+
+.website-link {
+	text-decoration: underline;
+	/* color: #7C294C; */
+}
+
 /* splash page */
 #hello {
 	font-family: 'Playfair Display';
